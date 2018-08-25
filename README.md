@@ -1,0 +1,1 @@
+VideoHost is a web application that allows users to sign up and log in in order to upload videos that are viewable to watch. Users can also share any videos to Twitter.
