@@ -6,7 +6,7 @@ import Nav from './Nav';
 class Upload extends Component {
 	uploadWidget = () => {
 		window.cloudinary.openUploadWidget(
-			{ 	cloud_name: 'dqwkca5lq',
+			{ 	cloud_name: 'cngai1223',
 				upload_preset: 'aphoxn5y',
 				tags: ['videohost'],
 				sources: ['local', 'url', 'google_photos', 'facebook', 'image_search']
