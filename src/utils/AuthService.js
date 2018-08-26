@@ -4,7 +4,7 @@ import auth0 from 'auth0-js';	//for authentication
 const ID_TOKEN_KEY = 'd_token';
 const ACCESS_TOKEN_KEY = 'access_token';
 
-const CLIENT_ID = '{YAwVcAq3jLaLF0vmXca8bchwnRIcGdf2}';
+const CLIENT_ID = 'YAwVcAq3jLaLF0vmXca8bchwnRIcGdf2';
 const CLIENT_DOMAIN = 'cngai1223.auth0.com';
 const REDIRECT = 'http://localhost:3000/callback';
 const SCOPE = 'access:allvideos';
