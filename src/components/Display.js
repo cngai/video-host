@@ -11,7 +11,7 @@ class Display extends Component {
 	state = { videos: [] };
 
 	getVideos() {
-		axios.get('http://res.cloudinary.com/unicodeveloper/video/list/miniflix.json')
+		axios.get('http://res.cloudinary.com/cngai1223/image/list/videohost.json')
 			.then(res => {
 				console.log(res.data.resources);
 				this.setState({ videos: res.data.resources });
