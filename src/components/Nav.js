@@ -1,0 +1,1 @@
+//navigation that all pages in the app will share
