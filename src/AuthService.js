@@ -4,11 +4,11 @@ import auth0 from 'auth0-js';	//for authentication
 const ID_TOKEN_KEY = 'd_token';
 const ACCESS_TOKEN_KEY = 'access_token';
 
-const CLIENT_ID = '{AUTH0_CLIENT_ID}';
-const CLIENT_DOMAIN = 'AUTH0_DOMAIN';
-const REDIRECT = 'YOUR_CALLBACK_URL';
-const SCOPE = 'YOUR_SCOPE';
-const AUDIENCE = 'AUDIENCE_ATTRIBUTE';
+const CLIENT_ID = '{YAwVcAq3jLaLF0vmXca8bchwnRIcGdf2}';
+const CLIENT_DOMAIN = 'cngai1223.auth0.com';
+const REDIRECT = 'http://localhost:3000/callback';
+const SCOPE = 'access:allvideos';
+const AUDIENCE = 'http://videohost.com';
 
 var auth = new auth0.WebAuth({
 	clientID: CLIENT_ID,
